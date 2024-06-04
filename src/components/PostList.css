@@ -1,0 +1,106 @@
+.post-list-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.create-post-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.create-post-form .form-group {
+  margin-bottom: 15px;
+}
+
+.create-post-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.create-post-form input,
+.create-post-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.create-post-form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.create-post-form button[type="button"] {
+  background-color: #6c757d;
+}
+
+.create-post-form button + button {
+  margin-left: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.create-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.post-item:hover {
+  background-color: #f1f1f1;
+}
+
+.post-item h2 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+}
+
+.post-item p {
+  margin: 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #6c757d;
+}
